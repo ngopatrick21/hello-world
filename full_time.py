@@ -22,13 +22,14 @@
 # else:
 #     print("Sorry you failed the quiz (F)")
 
-star_id = input('Please enter your StarID: ')
+# star_id = input('Please enter your StarID: ')
+#
+# if len(star_id) == 8:
+#     print('Your StarID is the correct length.')
+# elif len(star_id) > 8:
+#     print('Your StarID is too long!')
+# elif len(star_id) < 8:
+#     print('Your StarID is too short!')
+# else:
+#     print("Please print your StarID")
 
-if len(star_id) == 8:
-    print('Your StarID is the correct length.')
-elif len(star_id) > 8:
-    print('Your StarID is too long!')
-elif len(star_id) < 8:
-    print('Your StarID is too short!')
-else:
-    print("Please print your StarID")
