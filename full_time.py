@@ -1,13 +1,17 @@
-# credits = float(input("How many credits are you taking this semester?: "))
+credits = float(input("How many credits are you taking this semester?: "))
 
-# if credits >= 12:
-#     print("You are full-time and are eligible for the tax something something")
-# elif (credits >= 6):
-#     print("You are a half-time student")
-# elif (credits >= 1) and (credits <= 5):
-#      print("You are less than a half-time student.")
-# else:
-#     print("You are not a student. ")
+while credits < 0:
+    print('Error - please enter 0 or a positive number')
+    credits = int(input('Enter the number of credits you are taking this semester: '))
+
+if credits >= 12:
+    print("You are full-time and are eligible for the tax something something")
+elif (credits >= 6):
+    print("You are a half-time student")
+elif (credits >= 1) and (credits <= 5):
+     print("You are less than a half-time student.")
+else:
+    print("You are not a student. ")
 
 # quiz_score = float(input('Please enter the quiz score, out of 100: '))
 #
